@@ -1,4 +1,4 @@
-#include"main"
+#include"main.h"
 /**
  * add - sum of two numbers.
  * @n: Check the input
