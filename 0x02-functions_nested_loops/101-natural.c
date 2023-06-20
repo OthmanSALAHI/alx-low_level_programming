@@ -6,22 +6,16 @@
  */
 int main(void)
 {
-	unsigned long int sm3, sm5, sm;
-	int i;
+	int i, sum;
 
-	sm3 = 0;
-	sm5 = 0;
-	sm = 0;
+	sum = 0;
 	for (i = 0; i <= 1024; i++)
 	{
-		if ((i % 3) == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			sm3 = sm3 + i;
-		} else if ((i % 5) == 0)
-			sm5 = sm5 + i;
+			sum = sum + i;
 		}
 	}
-	sm = sm3 + sm5;
-	printf("%lu\n", sm);
+	printf("%d\n", sum);
 	return (0);
 }
