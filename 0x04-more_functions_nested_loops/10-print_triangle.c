@@ -5,7 +5,7 @@
  */
 void print_triangle(int size)
 {
-	char c     = '#';
+	char ch     = '#';
 	char space = ' ';
 	int space_count = (size - 1);
 	int char_count  = (1);
