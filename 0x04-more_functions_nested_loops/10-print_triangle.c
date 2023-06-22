@@ -1,11 +1,14 @@
 #include "main.h"
+
 /**
- * print_triangle - print triangle
- * @size: check the arg
- */
+* print_triangle - prints a triangle
+* @size: the size of the triangle
+* Return: void
+*/
 void print_triangle(int size)
 {
-	char ch     = '#';
+
+	char c     = '#';
 	char space = ' ';
 	int space_count = (size - 1);
 	int char_count  = (1);
