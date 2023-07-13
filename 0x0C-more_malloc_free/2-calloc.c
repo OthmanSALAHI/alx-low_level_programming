@@ -9,14 +9,14 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-    int *numelemnt;
+	int *numelemnt;
 
-    if (nmemb == 0 || size == 0)
-        return (NULL);
+	if (nmemb == 0 || size == 0)
+		return (NULL);
 
-    numelemnt = calloc(nmemb, size);
-    if (numelemnt == NULL)
-        return (NULL);
+	numelemnt = calloc(nmemb, size);
+	if (numelemnt == NULL)
+		return (NULL);
 
-    return (numelemnt);
+	return (numelemnt);
 }
