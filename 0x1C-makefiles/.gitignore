@@ -3,3 +3,5 @@ m.h
 *.c
 school
 *.o
+# files
+/__pycache__/
