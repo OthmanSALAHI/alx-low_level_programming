@@ -12,12 +12,12 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-	int index, racine, k, prev;
+	int index, m, k, prev;
 
-	if (array == NULL || size == 0)
+	if (!array || size == 0)
 		return (-1);
 
-	racine = (int)sqrt((double)size);
+	m = (int)sqrt((double)size);
 	k = 0;
 	prev = index = 0;
 
@@ -28,7 +28,7 @@ int jump_search(int *array, size_t size, int value)
 			return (index);
 		k++;
 		prev = index;
-		index = k * racine;
+		index = k * m;
 	} while (index < (int)size && array[index] < value);
 
 	printf("Value found between indexes [%d] and [%d]\n", prev, index);
