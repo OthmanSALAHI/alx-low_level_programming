@@ -1,5 +1,5 @@
 #include "search_algos.h"
-
+int _recursive(int *array, size_t size, int value);
 /**
  * binary_search - searches for a value in a sorted array using binary search
  * @array: pointer to the first element of the array
