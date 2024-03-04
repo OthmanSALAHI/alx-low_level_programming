@@ -20,6 +20,6 @@ To get started with the content in this repository:
 If you would like to contribute to this repository by adding more assignments, projects, or exercises, feel free to submit a pull request. Your contributions are highly appreciated!
 
 ## Contact
-For any questions or feedback regarding this repository, you can reach out to Othman SALAHI via email at othman@example.com.
+For any questions or feedback regarding this repository, you can reach out to Othman SALAHI via email at oothmansalahi.24@gmail.com.
 
 Happy coding!
